@@ -1,6 +1,6 @@
 ﻿Imports System.Threading
 
-Public Class Form1
+Public Class Form2
     Private WithEvents MouseDetector As MouseDetector
     Private Declare Function GetAsyncKeyState Lib "user32" (ByVal vkey As Integer) As Short
     Public Declare Auto Function SetCursorPos Lib "User32.dll" (ByVal X As Integer, ByVal Y As Integer) As Long
